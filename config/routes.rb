@@ -1,4 +1,6 @@
 Walrus::Application.routes.draw do
+  get "test/index"
+
   resources :answers
 
 
