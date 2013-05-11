@@ -1,4 +1,7 @@
 Walrus::Application.routes.draw do
+  resources :contacts
+
+
   resources :users
 
 
