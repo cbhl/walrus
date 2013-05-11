@@ -12,6 +12,11 @@ Walrus::Application.routes.draw do
 
   resources :users
 
+  match 'api/v1/test_call' => 'test#test_call'
+
+  match 'api/v1/test_callback' => 'test#test_callback'
+
+  match 'api/v1/test_answer' => 'test#test_answer'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
